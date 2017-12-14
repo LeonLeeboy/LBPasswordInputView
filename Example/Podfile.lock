@@ -1,0 +1,16 @@
+PODS:
+  - LBPasswordInputView (0.1.0)
+
+DEPENDENCIES:
+  - LBPasswordInputView (from `../`)
+
+EXTERNAL SOURCES:
+  LBPasswordInputView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LBPasswordInputView: dca25ca4ea9aa0208d24fcbd84c55bafd46718c2
+
+PODFILE CHECKSUM: cc4b2ae8c04646c854a54e796ac20dba8b3f9274
+
+COCOAPODS: 1.3.1

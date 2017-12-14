@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E88CC54EA047A09A5DF17A17A508BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		03AFC98298F4DD66DD98C8453D14554F /* Pods-LBPasswordInputView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FEAC8AF0AB1916FA7D46E9DA1002C0 /* Pods-LBPasswordInputView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08FE72E7A2A151D08A628DCC68DBEDF9 /* LBPasswordInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7519FEF0F0446CECDF280403F2B719 /* LBPasswordInputView-dummy.m */; };
+		1AC0D0068541141A5CC90F786BD72096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4E53B72C4AC982DC2D17CA98F4620FE1 /* Pods-LBPasswordInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE90FA7E9057AEA10D7F8AC1276C07FF /* Pods-LBPasswordInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F9D4F5B8F377D847107FD932315301 /* Pods-LBPasswordInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0151168349844FE982118A57523BAA /* Pods-LBPasswordInputView_Tests-dummy.m */; };
+		6A5DBB037D7CF376B8CA65A98C91B77D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		84500AD71ABA71D265028E81C932CD5D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1F12411DA3FFD606938AC9BC24339 /* ReplaceMe.m */; };
+		D2972D5E9A485314B326F376EBFAC60A /* LBPasswordInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A58D8394F1761BC260C3A2E53CB9A16 /* LBPasswordInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9497C8D89DF7EEA835DAB4752F8318D /* Pods-LBPasswordInputView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30887B67D1873C1459929EB0FC67B62F /* Pods-LBPasswordInputView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9BB3AABBB76D1F372E4B38E2E86F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3D8475A01AF0EE9EA7ECE93F7AE503;
+			remoteInfo = LBPasswordInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020A87AF9AEAED46A30B4423CED98F00 /* Pods-LBPasswordInputView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBPasswordInputView_Example.modulemap"; sourceTree = "<group>"; };
+		129AC904A694E82FED2D1A1BB0A44131 /* Pods-LBPasswordInputView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		14EEACCE19AC659F67E7B6F40DF6D2A1 /* Pods-LBPasswordInputView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Tests-resources.sh"; sourceTree = "<group>"; };
+		1944C601BB61540DC6C4C826ACADEB88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D1F12411DA3FFD606938AC9BC24339 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LBPasswordInputView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2E0151168349844FE982118A57523BAA /* Pods-LBPasswordInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBPasswordInputView_Tests-dummy.m"; sourceTree = "<group>"; };
+		2EB2AB3796EFB44A021D991A731B4399 /* Pods_LBPasswordInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBPasswordInputView_Tests.framework; path = "Pods-LBPasswordInputView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30887B67D1873C1459929EB0FC67B62F /* Pods-LBPasswordInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBPasswordInputView_Example-dummy.m"; sourceTree = "<group>"; };
+		3A58D8394F1761BC260C3A2E53CB9A16 /* LBPasswordInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBPasswordInputView-umbrella.h"; sourceTree = "<group>"; };
+		3EC9329BC9E9E0EFC481056F270DC940 /* Pods-LBPasswordInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBPasswordInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56684BA9A520E15E05B2F6F24EA1B45B /* LBPasswordInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LBPasswordInputView.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74757034D2D9F9C9DE06366CC71CD776 /* LBPasswordInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBPasswordInputView-prefix.pch"; sourceTree = "<group>"; };
+		855F66338BA9282C527BFE0F35E7120B /* Pods-LBPasswordInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBPasswordInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBPasswordInputView.xcconfig; sourceTree = "<group>"; };
+		8CC855D9A03EE5FEB11ECEDFCFC3E22F /* Pods-LBPasswordInputView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBPasswordInputView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91D5808168BA246BB8013F8CF7A8E2C6 /* Pods_LBPasswordInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBPasswordInputView_Example.framework; path = "Pods-LBPasswordInputView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960DDA6EBCE7DCB4E6EC21F3B8152111 /* Pods-LBPasswordInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9AA7C9DC65BD0B32123809599A1704C8 /* Pods-LBPasswordInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AAC023C1C80D2240F791B2D9C8C74522 /* Pods-LBPasswordInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B606C6C3D3FEDCD54EE56D7DF4E411CB /* Pods-LBPasswordInputView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBPasswordInputView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6DC1F3DD3D71DC391DCAAF5088BD012 /* Pods-LBPasswordInputView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBPasswordInputView_Tests.modulemap"; sourceTree = "<group>"; };
+		B6FEAC8AF0AB1916FA7D46E9DA1002C0 /* Pods-LBPasswordInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBPasswordInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BC7519FEF0F0446CECDF280403F2B719 /* LBPasswordInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBPasswordInputView-dummy.m"; sourceTree = "<group>"; };
+		D077213B8BD4A3A375252607AFBC4A7F /* Pods-LBPasswordInputView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Example-resources.sh"; sourceTree = "<group>"; };
+		D849830A3847A9D8714A2E40953564CD /* Pods-LBPasswordInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5F7BBD0E6EA8CC4E089D40BA7FEAC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F589CEF43A4D6E4A5AD4B2D8F2A274 /* Pods-LBPasswordInputView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EE90FA7E9057AEA10D7F8AC1276C07FF /* Pods-LBPasswordInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBPasswordInputView_Example-umbrella.h"; sourceTree = "<group>"; };
+		F40149AE4CCA4C51E77F51A930FEB304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BCB1A4F958984F45266D33008ACF67 /* LBPasswordInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBPasswordInputView.framework; path = LBPasswordInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2D194F3D01BE0A6E3D32026207EEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC0D0068541141A5CC90F786BD72096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8A0F7B5F78598BE75830321E2F5D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E88CC54EA047A09A5DF17A17A508BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED644E12F0391C1EA8419C01F86DEBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5DBB037D7CF376B8CA65A98C91B77D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCF05ED3950697F7C519AF9A23BA4BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6623CA5F58174C9E88715EACE92BB0E4 /* Pods-LBPasswordInputView_Example */,
+				25A3062CA111726573D289566A573C82 /* Pods-LBPasswordInputView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		25A3062CA111726573D289566A573C82 /* Pods-LBPasswordInputView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1944C601BB61540DC6C4C826ACADEB88 /* Info.plist */,
+				B6DC1F3DD3D71DC391DCAAF5088BD012 /* Pods-LBPasswordInputView_Tests.modulemap */,
+				3EC9329BC9E9E0EFC481056F270DC940 /* Pods-LBPasswordInputView_Tests-acknowledgements.markdown */,
+				855F66338BA9282C527BFE0F35E7120B /* Pods-LBPasswordInputView_Tests-acknowledgements.plist */,
+				2E0151168349844FE982118A57523BAA /* Pods-LBPasswordInputView_Tests-dummy.m */,
+				E5F589CEF43A4D6E4A5AD4B2D8F2A274 /* Pods-LBPasswordInputView_Tests-frameworks.sh */,
+				14EEACCE19AC659F67E7B6F40DF6D2A1 /* Pods-LBPasswordInputView_Tests-resources.sh */,
+				B6FEAC8AF0AB1916FA7D46E9DA1002C0 /* Pods-LBPasswordInputView_Tests-umbrella.h */,
+				D849830A3847A9D8714A2E40953564CD /* Pods-LBPasswordInputView_Tests.debug.xcconfig */,
+				9AA7C9DC65BD0B32123809599A1704C8 /* Pods-LBPasswordInputView_Tests.release.xcconfig */,
+			);
+			name = "Pods-LBPasswordInputView_Tests";
+			path = "Target Support Files/Pods-LBPasswordInputView_Tests";
+			sourceTree = "<group>";
+		};
+		31B87A2C59937175D444A7EE64CEAE81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5F7BBD0E6EA8CC4E089D40BA7FEAC5 /* Info.plist */,
+				56684BA9A520E15E05B2F6F24EA1B45B /* LBPasswordInputView.modulemap */,
+				8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */,
+				BC7519FEF0F0446CECDF280403F2B719 /* LBPasswordInputView-dummy.m */,
+				74757034D2D9F9C9DE06366CC71CD776 /* LBPasswordInputView-prefix.pch */,
+				3A58D8394F1761BC260C3A2E53CB9A16 /* LBPasswordInputView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LBPasswordInputView";
+			sourceTree = "<group>";
+		};
+		6623CA5F58174C9E88715EACE92BB0E4 /* Pods-LBPasswordInputView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F40149AE4CCA4C51E77F51A930FEB304 /* Info.plist */,
+				020A87AF9AEAED46A30B4423CED98F00 /* Pods-LBPasswordInputView_Example.modulemap */,
+				8CC855D9A03EE5FEB11ECEDFCFC3E22F /* Pods-LBPasswordInputView_Example-acknowledgements.markdown */,
+				B606C6C3D3FEDCD54EE56D7DF4E411CB /* Pods-LBPasswordInputView_Example-acknowledgements.plist */,
+				30887B67D1873C1459929EB0FC67B62F /* Pods-LBPasswordInputView_Example-dummy.m */,
+				129AC904A694E82FED2D1A1BB0A44131 /* Pods-LBPasswordInputView_Example-frameworks.sh */,
+				D077213B8BD4A3A375252607AFBC4A7F /* Pods-LBPasswordInputView_Example-resources.sh */,
+				EE90FA7E9057AEA10D7F8AC1276C07FF /* Pods-LBPasswordInputView_Example-umbrella.h */,
+				AAC023C1C80D2240F791B2D9C8C74522 /* Pods-LBPasswordInputView_Example.debug.xcconfig */,
+				960DDA6EBCE7DCB4E6EC21F3B8152111 /* Pods-LBPasswordInputView_Example.release.xcconfig */,
+			);
+			name = "Pods-LBPasswordInputView_Example";
+			path = "Target Support Files/Pods-LBPasswordInputView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8774DE8B311A29F046F7CBA8463F32A7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A8DEDCAA4FA4DB30DBE873FE8B74C397 /* Products */,
+				1FCF05ED3950697F7C519AF9A23BA4BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8774DE8B311A29F046F7CBA8463F32A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE65604F0BC98064E0FC147058E12408 /* LBPasswordInputView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8DEDCAA4FA4DB30DBE873FE8B74C397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BCB1A4F958984F45266D33008ACF67 /* LBPasswordInputView.framework */,
+				91D5808168BA246BB8013F8CF7A8E2C6 /* Pods_LBPasswordInputView_Example.framework */,
+				2EB2AB3796EFB44A021D991A731B4399 /* Pods_LBPasswordInputView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE65604F0BC98064E0FC147058E12408 /* LBPasswordInputView */ = {
+			isa = PBXGroup;
+			children = (
+				25D1F12411DA3FFD606938AC9BC24339 /* ReplaceMe.m */,
+				31B87A2C59937175D444A7EE64CEAE81 /* Support Files */,
+			);
+			name = LBPasswordInputView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		931BF724A643D04062D4F63A9D1A29E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E53B72C4AC982DC2D17CA98F4620FE1 /* Pods-LBPasswordInputView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68EB93415435F704F5538B5551664B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2972D5E9A485314B326F376EBFAC60A /* LBPasswordInputView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A8DC98617A2228FB6F34C2A3EAF9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AFC98298F4DD66DD98C8453D14554F /* Pods-LBPasswordInputView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0086C229E9A7F4C96B0A100A756A25D2 /* Pods-LBPasswordInputView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4A8AE20699F2D610F4F1810CF29CBF /* Build configuration list for PBXNativeTarget "Pods-LBPasswordInputView_Example" */;
+			buildPhases = (
+				E452A573E8EBEC4ED8DCD7E811FBEC65 /* Sources */,
+				9B8A0F7B5F78598BE75830321E2F5D6C /* Frameworks */,
+				931BF724A643D04062D4F63A9D1A29E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91165305CC49741478A01CEE21472905 /* PBXTargetDependency */,
+			);
+			name = "Pods-LBPasswordInputView_Example";
+			productName = "Pods-LBPasswordInputView_Example";
+			productReference = 91D5808168BA246BB8013F8CF7A8E2C6 /* Pods_LBPasswordInputView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A3D8475A01AF0EE9EA7ECE93F7AE503 /* LBPasswordInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80482A5F2497431C38017006F0C058B1 /* Build configuration list for PBXNativeTarget "LBPasswordInputView" */;
+			buildPhases = (
+				5F23849E338398D5AFEFBB42235326F5 /* Sources */,
+				ED644E12F0391C1EA8419C01F86DEBDF /* Frameworks */,
+				9A68EB93415435F704F5538B5551664B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBPasswordInputView;
+			productName = LBPasswordInputView;
+			productReference = F4BCB1A4F958984F45266D33008ACF67 /* LBPasswordInputView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8D02EA3B884D3ABA6C9ED8A8449CA35 /* Pods-LBPasswordInputView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413D7E68775B9ADCE8A43D172DEBCA0A /* Build configuration list for PBXNativeTarget "Pods-LBPasswordInputView_Tests" */;
+			buildPhases = (
+				2120480A60C43D913D5653D66FD37489 /* Sources */,
+				5D2D194F3D01BE0A6E3D32026207EEFB /* Frameworks */,
+				F15A8DC98617A2228FB6F34C2A3EAF9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LBPasswordInputView_Tests";
+			productName = "Pods-LBPasswordInputView_Tests";
+			productReference = 2EB2AB3796EFB44A021D991A731B4399 /* Pods_LBPasswordInputView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A8DEDCAA4FA4DB30DBE873FE8B74C397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3D8475A01AF0EE9EA7ECE93F7AE503 /* LBPasswordInputView */,
+				0086C229E9A7F4C96B0A100A756A25D2 /* Pods-LBPasswordInputView_Example */,
+				C8D02EA3B884D3ABA6C9ED8A8449CA35 /* Pods-LBPasswordInputView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2120480A60C43D913D5653D66FD37489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F9D4F5B8F377D847107FD932315301 /* Pods-LBPasswordInputView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F23849E338398D5AFEFBB42235326F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FE72E7A2A151D08A628DCC68DBEDF9 /* LBPasswordInputView-dummy.m in Sources */,
+				84500AD71ABA71D265028E81C932CD5D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E452A573E8EBEC4ED8DCD7E811FBEC65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9497C8D89DF7EEA835DAB4752F8318D /* Pods-LBPasswordInputView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91165305CC49741478A01CEE21472905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBPasswordInputView;
+			target = 0A3D8475A01AF0EE9EA7ECE93F7AE503 /* LBPasswordInputView */;
+			targetProxy = CD9BB3AABBB76D1F372E4B38E2E86F9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		038B7F63B143AF06502ED5615CF01A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBPasswordInputView/LBPasswordInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBPasswordInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBPasswordInputView/LBPasswordInputView.modulemap";
+				PRODUCT_NAME = LBPasswordInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32F8FA142A678EE423A1B25CCF145D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960DDA6EBCE7DCB4E6EC21F3B8152111 /* Pods-LBPasswordInputView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LBPasswordInputView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LBPasswordInputView_Example/Pods-LBPasswordInputView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LBPasswordInputView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42ACFE87BE592611321243B56730EAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA7C9DC65BD0B32123809599A1704C8 /* Pods-LBPasswordInputView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LBPasswordInputView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LBPasswordInputView_Tests/Pods-LBPasswordInputView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LBPasswordInputView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E2ECD1E9C4D7757AB330A7C4B8240B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC023C1C80D2240F791B2D9C8C74522 /* Pods-LBPasswordInputView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LBPasswordInputView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LBPasswordInputView_Example/Pods-LBPasswordInputView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LBPasswordInputView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8DCE5FE6126BE06C19AC60D63356E4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D849830A3847A9D8714A2E40953564CD /* Pods-LBPasswordInputView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LBPasswordInputView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LBPasswordInputView_Tests/Pods-LBPasswordInputView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LBPasswordInputView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D48174B2ED4EA1912604F01744821B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBPasswordInputView/LBPasswordInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBPasswordInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBPasswordInputView/LBPasswordInputView.modulemap";
+				PRODUCT_NAME = LBPasswordInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413D7E68775B9ADCE8A43D172DEBCA0A /* Build configuration list for PBXNativeTarget "Pods-LBPasswordInputView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCE5FE6126BE06C19AC60D63356E4CB /* Debug */,
+				42ACFE87BE592611321243B56730EAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4A8AE20699F2D610F4F1810CF29CBF /* Build configuration list for PBXNativeTarget "Pods-LBPasswordInputView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2ECD1E9C4D7757AB330A7C4B8240B2 /* Debug */,
+				32F8FA142A678EE423A1B25CCF145D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80482A5F2497431C38017006F0C058B1 /* Build configuration list for PBXNativeTarget "LBPasswordInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48174B2ED4EA1912604F01744821B7B /* Debug */,
+				038B7F63B143AF06502ED5615CF01A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
