@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "LBPasswordInputView.h"
+#import "UIImage+LBPassword.h"
+#import "UIView+LBPassword.h"
 
 FOUNDATION_EXPORT double LBPasswordInputViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LBPasswordInputViewVersionString[];

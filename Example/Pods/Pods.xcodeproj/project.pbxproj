@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02E88CC54EA047A09A5DF17A17A508BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		02E88CC54EA047A09A5DF17A17A508BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		03AFC98298F4DD66DD98C8453D14554F /* Pods-LBPasswordInputView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FEAC8AF0AB1916FA7D46E9DA1002C0 /* Pods-LBPasswordInputView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08FE72E7A2A151D08A628DCC68DBEDF9 /* LBPasswordInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7519FEF0F0446CECDF280403F2B719 /* LBPasswordInputView-dummy.m */; };
-		1AC0D0068541141A5CC90F786BD72096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1AC0D0068541141A5CC90F786BD72096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		35616D5A7758859DD09B5741002239F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		4E53B72C4AC982DC2D17CA98F4620FE1 /* Pods-LBPasswordInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE90FA7E9057AEA10D7F8AC1276C07FF /* Pods-LBPasswordInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D73A10EE5111CD060A79720A54DD0AB /* LBPasswordInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F1B39891F77D8ABEF8334BFA4E7E87 /* LBPasswordInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F9D4F5B8F377D847107FD932315301 /* Pods-LBPasswordInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0151168349844FE982118A57523BAA /* Pods-LBPasswordInputView_Tests-dummy.m */; };
-		6A5DBB037D7CF376B8CA65A98C91B77D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		84500AD71ABA71D265028E81C932CD5D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1F12411DA3FFD606938AC9BC24339 /* ReplaceMe.m */; };
-		D2972D5E9A485314B326F376EBFAC60A /* LBPasswordInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A58D8394F1761BC260C3A2E53CB9A16 /* LBPasswordInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BFB3C29ACDF7F9874E0701A7D82B089 /* UIImage+LBPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 454DB1FD661687F91FEC0881BBF72AE3 /* UIImage+LBPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82AE11185C7A60266D55A6B64BB5B9FA /* UIView+LBPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A8B1885E819ADFF502B515EB7AF5D /* UIView+LBPassword.m */; };
+		85DF3CE531FD3ADFFDD5BB6D3CFB0D6E /* UIView+LBPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C30F1F5BEC09D3989B8CC6FAD71401 /* UIView+LBPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2E429603044005F018984C7208F714 /* LBPasswordInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E9B90C43699F7B7B2734AE1AB663ED /* LBPasswordInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3708928A644DA06B9F58817AE4EE408 /* UIImage+LBPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = AD30D6DFB67B9FB5E2E5710B17872C4B /* UIImage+LBPassword.m */; };
+		A90C02C54178CFDE4830061CCC516868 /* LBPasswordInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C9CB383FED461E61E03B197D77A9F /* LBPasswordInputView-dummy.m */; };
 		D9497C8D89DF7EEA835DAB4752F8318D /* Pods-LBPasswordInputView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30887B67D1873C1459929EB0FC67B62F /* Pods-LBPasswordInputView_Example-dummy.m */; };
+		EB8A2D317756F578F158BD76D72B0CF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EEABCF30E16EB65623658DA5534DF771 /* LBPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C8305B9AA2D24ACF8AFA7D001D8CB /* LBPasswordInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,47 +30,62 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A3D8475A01AF0EE9EA7ECE93F7AE503;
+			remoteGlobalIDString = 1A844BC419856066467EF7890521F382;
 			remoteInfo = LBPasswordInputView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C490DC1FB8045C9D944FAE19E9E373 /* LBPasswordInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LBPasswordInputView.modulemap; sourceTree = "<group>"; };
 		020A87AF9AEAED46A30B4423CED98F00 /* Pods-LBPasswordInputView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBPasswordInputView_Example.modulemap"; sourceTree = "<group>"; };
 		129AC904A694E82FED2D1A1BB0A44131 /* Pods-LBPasswordInputView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		14EEACCE19AC659F67E7B6F40DF6D2A1 /* Pods-LBPasswordInputView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Tests-resources.sh"; sourceTree = "<group>"; };
 		1944C601BB61540DC6C4C826ACADEB88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25D1F12411DA3FFD606938AC9BC24339 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LBPasswordInputView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		2E0151168349844FE982118A57523BAA /* Pods-LBPasswordInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBPasswordInputView_Tests-dummy.m"; sourceTree = "<group>"; };
 		2EB2AB3796EFB44A021D991A731B4399 /* Pods_LBPasswordInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBPasswordInputView_Tests.framework; path = "Pods-LBPasswordInputView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30887B67D1873C1459929EB0FC67B62F /* Pods-LBPasswordInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBPasswordInputView_Example-dummy.m"; sourceTree = "<group>"; };
-		3A58D8394F1761BC260C3A2E53CB9A16 /* LBPasswordInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBPasswordInputView-umbrella.h"; sourceTree = "<group>"; };
 		3EC9329BC9E9E0EFC481056F270DC940 /* Pods-LBPasswordInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBPasswordInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		56684BA9A520E15E05B2F6F24EA1B45B /* LBPasswordInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LBPasswordInputView.modulemap; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74757034D2D9F9C9DE06366CC71CD776 /* LBPasswordInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBPasswordInputView-prefix.pch"; sourceTree = "<group>"; };
+		454DB1FD661687F91FEC0881BBF72AE3 /* UIImage+LBPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LBPassword.h"; path = "LBPasswordInputView/Classes/UIImage+LBPassword.h"; sourceTree = "<group>"; };
+		4F3C9CB383FED461E61E03B197D77A9F /* LBPasswordInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBPasswordInputView-dummy.m"; sourceTree = "<group>"; };
+		5E7DBF529873593D1BEE756239538B37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C30F1F5BEC09D3989B8CC6FAD71401 /* UIView+LBPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LBPassword.h"; path = "LBPasswordInputView/Classes/UIView+LBPassword.h"; sourceTree = "<group>"; };
+		722C8305B9AA2D24ACF8AFA7D001D8CB /* LBPasswordInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBPasswordInputView.m; path = LBPasswordInputView/Classes/LBPasswordInputView.m; sourceTree = "<group>"; };
 		855F66338BA9282C527BFE0F35E7120B /* Pods-LBPasswordInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBPasswordInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBPasswordInputView.xcconfig; sourceTree = "<group>"; };
 		8CC855D9A03EE5FEB11ECEDFCFC3E22F /* Pods-LBPasswordInputView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBPasswordInputView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		91D5808168BA246BB8013F8CF7A8E2C6 /* Pods_LBPasswordInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBPasswordInputView_Example.framework; path = "Pods-LBPasswordInputView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		960DDA6EBCE7DCB4E6EC21F3B8152111 /* Pods-LBPasswordInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9AA7C9DC65BD0B32123809599A1704C8 /* Pods-LBPasswordInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A412DF74D71B5434D8D8FF09422582D3 /* LBPasswordInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBPasswordInputView-prefix.pch"; sourceTree = "<group>"; };
+		A6DD497F8620F435C976D5C5019943DE /* LBPasswordInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBPasswordInputView.xcconfig; sourceTree = "<group>"; };
 		AAC023C1C80D2240F791B2D9C8C74522 /* Pods-LBPasswordInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AD30D6DFB67B9FB5E2E5710B17872C4B /* UIImage+LBPassword.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LBPassword.m"; path = "LBPasswordInputView/Classes/UIImage+LBPassword.m"; sourceTree = "<group>"; };
 		B606C6C3D3FEDCD54EE56D7DF4E411CB /* Pods-LBPasswordInputView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBPasswordInputView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B6DC1F3DD3D71DC391DCAAF5088BD012 /* Pods-LBPasswordInputView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LBPasswordInputView_Tests.modulemap"; sourceTree = "<group>"; };
 		B6FEAC8AF0AB1916FA7D46E9DA1002C0 /* Pods-LBPasswordInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBPasswordInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BC7519FEF0F0446CECDF280403F2B719 /* LBPasswordInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBPasswordInputView-dummy.m"; sourceTree = "<group>"; };
 		D077213B8BD4A3A375252607AFBC4A7F /* Pods-LBPasswordInputView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Example-resources.sh"; sourceTree = "<group>"; };
 		D849830A3847A9D8714A2E40953564CD /* Pods-LBPasswordInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBPasswordInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB5F7BBD0E6EA8CC4E089D40BA7FEAC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E5F589CEF43A4D6E4A5AD4B2D8F2A274 /* Pods-LBPasswordInputView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBPasswordInputView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E7E9B90C43699F7B7B2734AE1AB663ED /* LBPasswordInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBPasswordInputView.h; path = LBPasswordInputView/Classes/LBPasswordInputView.h; sourceTree = "<group>"; };
 		EE90FA7E9057AEA10D7F8AC1276C07FF /* Pods-LBPasswordInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBPasswordInputView_Example-umbrella.h"; sourceTree = "<group>"; };
+		F3F1B39891F77D8ABEF8334BFA4E7E87 /* LBPasswordInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBPasswordInputView-umbrella.h"; sourceTree = "<group>"; };
 		F40149AE4CCA4C51E77F51A930FEB304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4BCB1A4F958984F45266D33008ACF67 /* LBPasswordInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBPasswordInputView.framework; path = LBPasswordInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88A8B1885E819ADFF502B515EB7AF5D /* UIView+LBPassword.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LBPassword.m"; path = "LBPasswordInputView/Classes/UIView+LBPassword.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		196960D7188EA57051D46E24F2F83B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8A2D317756F578F158BD76D72B0CF9 /* Foundation.framework in Frameworks */,
+				35616D5A7758859DD09B5741002239F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D2D194F3D01BE0A6E3D32026207EEFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,17 +102,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED644E12F0391C1EA8419C01F86DEBDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A5DBB037D7CF376B8CA65A98C91B77D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00AAADE9879BEBFCFC68F0C03F2A0506 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E7DBF529873593D1BEE756239538B37 /* Info.plist */,
+				00C490DC1FB8045C9D944FAE19E9E373 /* LBPasswordInputView.modulemap */,
+				A6DD497F8620F435C976D5C5019943DE /* LBPasswordInputView.xcconfig */,
+				4F3C9CB383FED461E61E03B197D77A9F /* LBPasswordInputView-dummy.m */,
+				A412DF74D71B5434D8D8FF09422582D3 /* LBPasswordInputView-prefix.pch */,
+				F3F1B39891F77D8ABEF8334BFA4E7E87 /* LBPasswordInputView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LBPasswordInputView";
+			sourceTree = "<group>";
+		};
 		1FCF05ED3950697F7C519AF9A23BA4BD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,18 +146,29 @@
 			path = "Target Support Files/Pods-LBPasswordInputView_Tests";
 			sourceTree = "<group>";
 		};
-		31B87A2C59937175D444A7EE64CEAE81 /* Support Files */ = {
+		39281FA203D475E8942069DFD2BE92B8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DB5F7BBD0E6EA8CC4E089D40BA7FEAC5 /* Info.plist */,
-				56684BA9A520E15E05B2F6F24EA1B45B /* LBPasswordInputView.modulemap */,
-				8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */,
-				BC7519FEF0F0446CECDF280403F2B719 /* LBPasswordInputView-dummy.m */,
-				74757034D2D9F9C9DE06366CC71CD776 /* LBPasswordInputView-prefix.pch */,
-				3A58D8394F1761BC260C3A2E53CB9A16 /* LBPasswordInputView-umbrella.h */,
+				ABC7C183EBCFE979D8BB614BE5531A53 /* LBPasswordInputView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LBPasswordInputView";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6623CA5F58174C9E88715EACE92BB0E4 /* Pods-LBPasswordInputView_Example */ = {
@@ -155,19 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8774DE8B311A29F046F7CBA8463F32A7 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				39281FA203D475E8942069DFD2BE92B8 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				A8DEDCAA4FA4DB30DBE873FE8B74C397 /* Products */,
 				1FCF05ED3950697F7C519AF9A23BA4BD /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8774DE8B311A29F046F7CBA8463F32A7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EE65604F0BC98064E0FC147058E12408 /* LBPasswordInputView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A8DEDCAA4FA4DB30DBE873FE8B74C397 /* Products */ = {
@@ -180,27 +210,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		ABC7C183EBCFE979D8BB614BE5531A53 /* LBPasswordInputView */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		EE65604F0BC98064E0FC147058E12408 /* LBPasswordInputView */ = {
-			isa = PBXGroup;
-			children = (
-				25D1F12411DA3FFD606938AC9BC24339 /* ReplaceMe.m */,
-				31B87A2C59937175D444A7EE64CEAE81 /* Support Files */,
+				E7E9B90C43699F7B7B2734AE1AB663ED /* LBPasswordInputView.h */,
+				722C8305B9AA2D24ACF8AFA7D001D8CB /* LBPasswordInputView.m */,
+				454DB1FD661687F91FEC0881BBF72AE3 /* UIImage+LBPassword.h */,
+				AD30D6DFB67B9FB5E2E5710B17872C4B /* UIImage+LBPassword.m */,
+				71C30F1F5BEC09D3989B8CC6FAD71401 /* UIView+LBPassword.h */,
+				F88A8B1885E819ADFF502B515EB7AF5D /* UIView+LBPassword.m */,
+				00AAADE9879BEBFCFC68F0C03F2A0506 /* Support Files */,
 			);
 			name = LBPasswordInputView;
 			path = ../..;
@@ -209,19 +228,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		13193156C071FAC3144F5A9222DD2965 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D73A10EE5111CD060A79720A54DD0AB /* LBPasswordInputView-umbrella.h in Headers */,
+				9D2E429603044005F018984C7208F714 /* LBPasswordInputView.h in Headers */,
+				7BFB3C29ACDF7F9874E0701A7D82B089 /* UIImage+LBPassword.h in Headers */,
+				85DF3CE531FD3ADFFDD5BB6D3CFB0D6E /* UIView+LBPassword.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		931BF724A643D04062D4F63A9D1A29E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4E53B72C4AC982DC2D17CA98F4620FE1 /* Pods-LBPasswordInputView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A68EB93415435F704F5538B5551664B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2972D5E9A485314B326F376EBFAC60A /* LBPasswordInputView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +276,13 @@
 			productReference = 91D5808168BA246BB8013F8CF7A8E2C6 /* Pods_LBPasswordInputView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0A3D8475A01AF0EE9EA7ECE93F7AE503 /* LBPasswordInputView */ = {
+		1A844BC419856066467EF7890521F382 /* LBPasswordInputView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80482A5F2497431C38017006F0C058B1 /* Build configuration list for PBXNativeTarget "LBPasswordInputView" */;
+			buildConfigurationList = 9E90908123518A922C31E676CB48B014 /* Build configuration list for PBXNativeTarget "LBPasswordInputView" */;
 			buildPhases = (
-				5F23849E338398D5AFEFBB42235326F5 /* Sources */,
-				ED644E12F0391C1EA8419C01F86DEBDF /* Frameworks */,
-				9A68EB93415435F704F5538B5551664B /* Headers */,
+				1495CF60ABB00B058C3C141F29044037 /* Sources */,
+				196960D7188EA57051D46E24F2F83B9D /* Frameworks */,
+				13193156C071FAC3144F5A9222DD2965 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -309,7 +331,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A3D8475A01AF0EE9EA7ECE93F7AE503 /* LBPasswordInputView */,
+				1A844BC419856066467EF7890521F382 /* LBPasswordInputView */,
 				0086C229E9A7F4C96B0A100A756A25D2 /* Pods-LBPasswordInputView_Example */,
 				C8D02EA3B884D3ABA6C9ED8A8449CA35 /* Pods-LBPasswordInputView_Tests */,
 			);
@@ -317,20 +339,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1495CF60ABB00B058C3C141F29044037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90C02C54178CFDE4830061CCC516868 /* LBPasswordInputView-dummy.m in Sources */,
+				EEABCF30E16EB65623658DA5534DF771 /* LBPasswordInputView.m in Sources */,
+				A3708928A644DA06B9F58817AE4EE408 /* UIImage+LBPassword.m in Sources */,
+				82AE11185C7A60266D55A6B64BB5B9FA /* UIView+LBPassword.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2120480A60C43D913D5653D66FD37489 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67F9D4F5B8F377D847107FD932315301 /* Pods-LBPasswordInputView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F23849E338398D5AFEFBB42235326F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08FE72E7A2A151D08A628DCC68DBEDF9 /* LBPasswordInputView-dummy.m in Sources */,
-				84500AD71ABA71D265028E81C932CD5D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,15 +372,15 @@
 		91165305CC49741478A01CEE21472905 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBPasswordInputView;
-			target = 0A3D8475A01AF0EE9EA7ECE93F7AE503 /* LBPasswordInputView */;
+			target = 1A844BC419856066467EF7890521F382 /* LBPasswordInputView */;
 			targetProxy = CD9BB3AABBB76D1F372E4B38E2E86F9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		038B7F63B143AF06502ED5615CF01A2E /* Release */ = {
+		11ED385C387D04E74F682A61B37C61B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */;
+			baseConfigurationReference = A6DD497F8620F435C976D5C5019943DE /* LBPasswordInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -510,6 +534,35 @@
 			};
 			name = Release;
 		};
+		6D3AD1FE414282B480B34151DBC2C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DD497F8620F435C976D5C5019943DE /* LBPasswordInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBPasswordInputView/LBPasswordInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBPasswordInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBPasswordInputView/LBPasswordInputView.modulemap";
+				PRODUCT_NAME = LBPasswordInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6E2ECD1E9C4D7757AB330A7C4B8240B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAC023C1C80D2240F791B2D9C8C74522 /* Pods-LBPasswordInputView_Example.debug.xcconfig */;
@@ -629,35 +682,6 @@
 			};
 			name = Debug;
 		};
-		D48174B2ED4EA1912604F01744821B7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B75F1F69959A698D11084811CCE6D56 /* LBPasswordInputView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LBPasswordInputView/LBPasswordInputView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LBPasswordInputView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LBPasswordInputView/LBPasswordInputView.modulemap";
-				PRODUCT_NAME = LBPasswordInputView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,11 +712,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80482A5F2497431C38017006F0C058B1 /* Build configuration list for PBXNativeTarget "LBPasswordInputView" */ = {
+		9E90908123518A922C31E676CB48B014 /* Build configuration list for PBXNativeTarget "LBPasswordInputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D48174B2ED4EA1912604F01744821B7B /* Debug */,
-				038B7F63B143AF06502ED5615CF01A2E /* Release */,
+				6D3AD1FE414282B480B34151DBC2C53A /* Debug */,
+				11ED385C387D04E74F682A61B37C61B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

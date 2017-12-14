@@ -1,5 +1,5 @@
 PODS:
-  - LBPasswordInputView (0.1.0)
+  - LBPasswordInputView (1.0.0)
 
 DEPENDENCIES:
   - LBPasswordInputView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LBPasswordInputView: dca25ca4ea9aa0208d24fcbd84c55bafd46718c2
+  LBPasswordInputView: 99e163c5ab5a48ffb292b9ccf7ee9c4f9f9fd022
 
 PODFILE CHECKSUM: cc4b2ae8c04646c854a54e796ac20dba8b3f9274
 

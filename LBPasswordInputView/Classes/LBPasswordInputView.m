@@ -217,7 +217,9 @@ static NSString *const LBTextFieldObserverKey = @"UIControlEventEditingChanged";
     NSString *passWord = sender.text;
     if (passWord.length > self.passWordLength) {
         passWord = [passWord substringToIndex:self.passWordLength];
+        sender.text = passWord;
     }
+    
     self.password = passWord;
     NSLog(@"文本是：%@",passWord);
     [self refreshUIWithPassWord:passWord];
