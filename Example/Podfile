@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LBPasswordInputView_Example' do
+  pod 'LBPasswordInputView', :path => '../'
+
+  target 'LBPasswordInputView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
