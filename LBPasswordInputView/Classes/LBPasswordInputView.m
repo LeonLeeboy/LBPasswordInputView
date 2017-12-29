@@ -203,13 +203,10 @@ static NSString *const LBTextFieldObserverKey = @"UIControlEventEditingChanged";
 }
 
 - (void)removeObservers{
-    [self.superview removeObserver:self forKeyPath:LBTextFieldObserverKey];
     [self.pasWordTextField removeTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];
 }
 
 - (void)addObservers{
-//    NSKeyValueObservingOptions options =  NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld;
-//    [self.pasWordTextField addObserver:self forKeyPath:LBTextFieldObserverKey options:options context:nil];
     [self.pasWordTextField addTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];
 }
 

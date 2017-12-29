@@ -42,6 +42,7 @@
     //4.裁剪
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     //5. 关闭上下文
+    UIGraphicsEndImageContext();
     return image;
 }
 
